@@ -431,6 +431,7 @@ main img{
 .img-project{
 	position: relative;
 	cursor: pointer;
+	margin-top: 5px;
 	border: 1px solid #ffffff;
 	transform: perspective(1000px) rotateX(90deg);
 	transition: 0.7s ease-in-out;

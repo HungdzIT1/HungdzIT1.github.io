@@ -1,1 +1,1 @@
-# HungdzIT1.github.io
+[View Portfolio](http://hungdzit1.github.io)

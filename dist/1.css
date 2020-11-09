@@ -1103,6 +1103,7 @@ footer{
 	position: relative;
 	display: inline-block;
 	transform-origin: left;
+	line-height: 1.5rem;
 	transform: scaleX(0);
 	animation: revealTextReverse 1s ease-in-out forwards;
 }

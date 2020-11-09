@@ -372,19 +372,23 @@ main img{
 	margin-bottom: 2em;
 }
 
+.one-timeline a{
+	color: #7ed6df;
+}
+
 .education .year{
-	width: 40%;
+	width: 45%;
 	direction: inline-block;
 	font-size: 30px;
 	font-weight: bold;
-	padding: 50px 0;
+	padding: 70px 0;
 	text-align: center;
 	border: 2px solid white;
 }
 
 .education .timeline-content{
 	position: absolute;
-	left: 36%;
+	left: 40%;
 	top: 50%;
 	transform: translate(0, -50%);
 	background: black;
@@ -641,6 +645,15 @@ footer{
 	background: none;
 }
 
+@media (max-width: 1024px){
+	.education .year{
+		width: 40%;
+	}
+	.education .timeline-content{
+		left: 43%;
+	}
+}
+
 
 @media (max-width: 1155px){
 	.contact-left{
@@ -724,6 +737,9 @@ footer{
 	.content-resume .col-3{
 		width: 40%;
 	}
+	.img-project div{
+		font-size: 20px;
+	}
 }
 @media (max-width: 695px){
 	
@@ -791,8 +807,8 @@ footer{
 
 @media (max-width: 530px){
 	.education .year{
-		font-size: 30px;
-		padding: 1em 0;
+		font-size: 27px;
+		padding: 2.5rem 0;
 	}
 
 	.education .timeline-content{
@@ -1074,6 +1090,10 @@ footer{
 .contact-left p,
 .contact-left h3{
 	transform: scaleX(0);
+}
+
+.contact-left a{
+	color: #ffffff;
 }
 
 .bannerText h2,

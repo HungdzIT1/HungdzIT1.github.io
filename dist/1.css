@@ -1195,6 +1195,10 @@ footer{
     animation: skills_reactjs 1s ease-in-out forwards;
     animation-delay: 2.5s;
 }
+.bannerText .nodejs {
+    animation: skills_nodejs 1s ease-in-out forwards;
+    animation-delay: 2.5s;
+}
 
 .bannerText .github {
     animation: skills_github 1s ease-in-out forwards;
@@ -1259,6 +1263,15 @@ footer{
 }
 
 @-webkit-keyframes skills_reactjs {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@-webkit-keyframes skills_nodejs {
     from {
         width: 0%;
     }

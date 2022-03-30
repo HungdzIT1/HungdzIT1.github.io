@@ -396,11 +396,11 @@ main img{
 }
 
 .education .year{
-	width: 45%;
+	width: 42%;
 	direction: inline-block;
 	font-size: 30px;
 	font-weight: bold;
-	padding: 70px 0;
+	padding: 105px 0;
 	text-align: center;
 	border: 2px solid white;
 }
@@ -409,7 +409,11 @@ main img{
 	position: absolute;
 	left: 40%;
 	top: 50%;
-	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	   -moz-transform: translate(0, -50%);
+	    -ms-transform: translate(0, -50%);
+	     -o-transform: translate(0, -50%);
+	        transform: translate(0, -50%);
 	background: black;
 	padding: 20px 0;
 	opacity: 0;
@@ -712,7 +716,7 @@ footer{
 	}
 
 	.education .timeline-content{
-		left: 33%;
+		left: 43%;
 		padding: 5px 0;
 	}
 	.education .timeline-content h3{
@@ -727,10 +731,6 @@ footer{
 	}
 	.education .timeline-content p{
 		font-size: 14px;
-	}
-
-	.contact-left{
-		width: 70%;
 	}
 
 	.contact-left ul li div:nth-child(1){
@@ -849,13 +849,22 @@ footer{
 
 @media (max-width: 530px){
 	.education .year{
+		width: 100%;
 		font-size: 27px;
-		padding: 2.5rem 0;
+		padding: 1.5rem 0;
 	}
 
 	.education .timeline-content{
-		left: 40%;
+		position: relative;
+		left: auto;
+		width: 100%;
 		padding: 5px 10px;
+		top:  auto;
+		-webkit-transform: translate(0);
+		   -moz-transform: translate(0);
+		    -ms-transform: translate(0);
+		     -o-transform: translate(0);
+		        transform: translate(0);
 	}
 	.education .timeline-content h3{
 		font-size: 14px;

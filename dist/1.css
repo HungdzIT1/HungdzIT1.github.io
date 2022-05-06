@@ -577,6 +577,7 @@ main img{
 	font-size: 14px;
 	line-height: 1.3rem;
 	align-items: center;
+	width: 80%;
 }
 .contact-left ul li div:nth-child(2) h3{
 	font-size: 18px;
